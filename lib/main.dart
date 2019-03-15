@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter/rendering.dart';
 
-import './product_manager.dart';
+import './pages/home.dart';
 
 void main() {
   runApp(App());
@@ -20,7 +19,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: Text('Easy list'),
         ),
-        body: ProductManager('Food Tester'),
+        body: HomePage(),
       ),
     );
   }
