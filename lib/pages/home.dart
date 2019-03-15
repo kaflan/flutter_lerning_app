@@ -5,6 +5,10 @@ import '../product_manager.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ProductManager('Food Tester');
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('Easy list'),
+        ),
+        body: ProductManager('Food Tester'));
   }
 }

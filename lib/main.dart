@@ -15,12 +15,7 @@ class App extends StatelessWidget {
         primarySwatch: Colors.deepOrange,
         accentColor: Colors.deepPurple
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Easy list'),
-        ),
-        body: HomePage(),
-      ),
-    );
+      home: HomePage(),
+      );
   }
 }
